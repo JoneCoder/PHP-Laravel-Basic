@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+html,
+body{
+    background-color: #b0e0e6;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    min-width: 320px;
+}
+.form-module{
+    background-color: rgb(250, 250, 250);
+    border-radius: 4px;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
