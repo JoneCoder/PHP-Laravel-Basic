@@ -1,0 +1,89 @@
+body{
+    background-color: #0b0b0b;
+}
+body, h2, h3, p{
+    color: white;
+}
+#menu {
+    padding: 20px;
+    transition: all 0.8s;
+}
+#menu.navbar-default {
+    background-color: #0b0b0b;
+    box-shadow: 0 0 30px white;
+}
+#menu a.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0ACEFF;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+#menu.navbar-default .navbar-nav > li > a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #0ACEFF;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 2px;
+    border-radius: 0;
+    margin: 9px 20px 0 20px;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+    color: #f5f2f0;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ce2a36 !important;
+    background-color: transparent;
+}
+#menu .phone {
+    font-family: 'Montserrat', sans-serif;
+    margin: 4px 0 0 120px;
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0ACEFF;
+}
+#menu .phone span {
+    font-size: 14px;
+    display: block;
+    color: #0ACEFF;
+}
+.navbar-toggle {
+    border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #f5f2f0;
+    border-color: #f5f2f0;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+    background-color: #1b6d3f;
+}
+/* Get Touch Section */
+#get-touch {
+    padding: 40px 0 30px;
+    color: rgba(255,255,255,.7);
+    background: #0b2e13;
+}
+/* About Section */
+#about {
+    padding: 110px 0;
+    background: grey;
+}
+#services {
+    padding: 100px 0;
+    box-shadow: 0 0 30px white;
+}
+/* Contact Section */
+#contact {
+    padding: 100px 0 60px 0;
+    background: #0b2e13;
+    color: rgba(255,255,255,.65);
+}
+/* Footer Section*/
+#footer {
+    background: #0b0b0b;
+    padding: 30px 0;
+    box-shadow: 0 0 30px white;
+}
