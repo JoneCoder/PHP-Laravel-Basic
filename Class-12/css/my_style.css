@@ -1,0 +1,79 @@
+.profile-pic{
+    width: 70px;
+    height: 70px;
+}
+.profile-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+.profile-pic button{
+    display: none;
+}
+.profile-pic:hover button{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer p{
+    font-size: 20px;
+    line-height: 4px;
+}
+.cover{
+    width: 850px;
+    height: 400px;
+}
+.pic{
+    margin-top: 250px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.pic img{
+    border-radius: 4px;
+    border: 2px solid powderblue;
+}
+.editBtn{
+    display: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+}
+.cover:hover{
+    box-shadow: 3px 5px 5px gray;
+}
+.edit:hover .editBtn{
+    display: block;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -200px;
+    z-index: 1;
+
+}
+.editBtn:hover{
+    box-shadow: 3px 3px 5px skyblue;
+}
+.user-content{
+    margin-bottom: 100px;
+}
+.pro-post{
+    width: 50px;
+    height: 50px;
+    border: 2px solid powderblue;
+}
+.post-content{
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+.border{
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px grey;
+
+}
